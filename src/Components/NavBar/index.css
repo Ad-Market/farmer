@@ -1,0 +1,229 @@
+@import '../../dark.css';
+@import '../../light.css';
+.input-search-nft {
+  border-radius: 1rem !important;
+  background-color: var(--input-background) !important;
+}
+
+.input-search-nft .ant-input {
+  background-color: var(--input-background) !important;
+  color: var(--color) !important;
+}
+
+.ant-select-selector {
+  background-color: var(--input-background) !important;
+}
+
+.menu-bar {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  top: 0px;
+  transform: translate3d(0px, 0px, 0px);
+  background-color: rgb(255, 255, 255);
+}
+
+.leftMenu {
+  height: 48px;
+  width: 25%;
+}
+
+.nav-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.justifyContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alignItems {
+  display: flex;
+  align-items: center;
+}
+
+.leftMenu .ant-col {
+  background: var(--background-color);
+}
+
+.rightMenu .ant-menu {
+  background: var(--background-color) !important;
+}
+
+.rightMenu .ant-menu-horizontal .ant-menu-item a {
+  color: var(--color) !important;
+}
+
+.rightMenu .ant-menu-horizontal {
+  color: var(--color) !important;
+}
+
+.info-chain .leftMenu {
+  float: left;
+  margin-left: 0.5rem;
+}
+
+.ant-menu-submenu-expand-icon,
+.ant-menu-submenu-arrow {
+  right: 50px !important;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.connect-and-dark-mode {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.style-dark-mode {
+  position: relative;
+  margin-left: 0.75rem;
+  margin-right: 3rem;
+}
+
+.dropdown_network_header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  transition: 0.3s;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #f0f5f9;
+}
+
+.sidebar-menu-network-icon {
+  width: 30px;
+  border-radius: 100%;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidebar-menu-network-label {
+  margin: 0 8px;
+  flex: 1 1;
+}
+
+.dropdown-select-chain {
+  border-radius: 1rem !important;
+  background-color: #ffffff;
+}
+
+.dropdown-select-chain .ant-dropdown-menu-item-group-title {
+  text-align: center;
+}
+
+.dropdown-select-chain .ant-dropdown-menu-item {
+  border-radius: 1rem !important;
+}
+
+.dropdown-select-chain img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-right: 12px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 0 0 2px #dfe8f9;
+}
+.dropdown-select-chain .ant-dropdown-menu-item-group-list {
+  padding-bottom: 5px;
+}
+
+@media (max-width: 1437px) {
+  .leftMenu {
+    width: 20%;
+  }
+
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+    margin: 0 10px;
+  }
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item a {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 1345px) {
+  .leftMenu {
+    width: 15%;
+  }
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+    margin: 0 7px;
+  }
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item a {
+    padding: 10px 7px;
+  }
+}
+@media (max-width: 1024px) {
+  .leftMenu {
+    width: 13%;
+  }
+
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+    margin: 0 5px;
+  }
+  .info-chain .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item a {
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .barsMenu {
+    display: block !important;
+  }
+
+  .leftMenu {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .left-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 0.5rem;
+  }
+
+  .rightMenu .ant-menu-item.ant-menu-item-only-child {
+    margin: 0 5px;
+  }
+
+  .connect-and-dark-mode {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: stretch;
+  }
+
+  .style-connect {
+    padding: 10px 0 10px 0;
+  }
+  .style-dark-mode {
+    margin-right: 0;
+  }
+}
